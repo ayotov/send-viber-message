@@ -108,7 +108,7 @@ $Message = 'Здравей!'
 
 ## Важни елементи в скрипта
 
-- **`ViberApi`** (C# чрез `Add-Type`) — всички Win32 P/Invoke декларации
+- **Дефинира `ViberApi`** (C# чрез `Add-Type`) — всички Win32 P/Invoke декларации
   (`EnumWindows`, `Shell_NotifyIconGetRect`, `SetCursorPos`, `mouse_event`, …).
 - **`Get-ViberWindow`** — намира главния прозорец на Viber чрез UIA по идентификатор на процеса.
 - **`Get-ViberWindows` / `Get-ViberMainWindow`** — изброяват Win32 прозорците и избират
